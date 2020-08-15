@@ -11,8 +11,12 @@ Our team consists of:
 - Neha Nayeem
 
 ## Extract
+Original Data Sources: 
+1.	Steam official website: https://store.steampowered.com/search/?filter=topsellers
+2.	Top rated games on Steam: https://steamdb.info/stats/gameratings/
 
-
+We used web scraping to extract the top sellers from the first data source and extracted ratings from the second source.The libraries we used are: Pandas, BeautifulSoup, Splinter, Time and tqdm(progress bar tracker for loops).
+Both of the data are in HTML format.
 
 
 ## Transform
